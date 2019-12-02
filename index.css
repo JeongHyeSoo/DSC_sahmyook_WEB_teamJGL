@@ -1,0 +1,150 @@
+
+
+html{
+    zoom: 2;
+}
+body{
+    
+    width: 100%;
+    height: 100%;
+    background-image: url(./developer-background.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+
+}
+a{
+    color : black;
+    text-decoration: none !important;
+}
+
+h2{
+    line-height : inherit;
+}
+header{
+    background-color: #24292e;
+    
+}
+
+.title1{
+    display: block;
+    text-align: center;
+}
+.title_d{
+    color:#4885ed;
+    display: inline;
+}
+
+.title_s{
+    color: #db3236;
+    display: inline;
+
+}
+
+.title_c{
+    color:#f4c20d;
+    display: inline;
+}
+
+.class_name{
+    color: #3cba54;
+    display: inline;
+    font-size : 20px;
+}
+
+.team_name{
+    
+    display: block;
+    text-align: center;
+    color:white;
+
+}
+
+.name_j{
+    text-decoration: none;
+    top: 70px;
+    line-height: 75px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    padding: 10px;
+    border-color: #b90000;
+    border-style: solid;
+    border-width :3px;
+    margin: 6px;
+    position: relative;
+    border-radius: 100%;
+    background-image: url(프사용.jpg);
+    background-size:100px
+
+}
+
+.name_g{
+    
+    text-decoration: none;
+    top: 155px;
+    left: 67px;
+    position: relative;
+    line-height: 75px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    padding: 10px;
+    border-color: #0060c0;
+    border-style: solid;
+    border-width :3px;
+    margin: 6px;
+    border-radius: 100%;
+    background-image: url(권택준.jpg);
+    background-size:100px;
+
+    
+
+}
+
+.name_l{
+    text-decoration: none;
+    top: 155px;
+    right: 67px;
+    position: relative;
+    line-height: 75px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    padding: 10px;
+    border-color: #ffd900;
+    border-style: solid;
+    border-width :3px;
+    margin: 6px;
+    border-radius: 100%;
+    background-image: url(이승현.jpg);
+    background-size:100px;
+
+    display: inline-block;
+}
+
+
+
+.member{
+    text-align: center;
+    height: 300px;
+    text-decoration: none;
+}
+
+.member :hover{
+    transform: scale(1.3,1.3);
+    transition: all  ease .5s;
+    background-color:white;
+    color:#3cba54;
+}
+
+
+.footer{
+    color: white;
+    font-size: 13px;
+
+}
+
